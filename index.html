@@ -20,15 +20,18 @@
 
     <main>
         <section>
-        <h1>BUSCAR una pel·lícula</h1>
-        <p>Milions de títols, un sol cercador.</p>
-        <div>
-            <input type="text" placeholder="Cerca una pel·lícula, per exemple «Dune»...">
-            <button>Cercar</button>
-        </div>
-    </section>
+            <h1>BUSCAR una pel·lícula</h1>
+            <p>Milions de títols, un sol cercador.</p>
+            <form method="get" action="https://www.themoviedb.org/search">
+                <label for="cercador">Cerca una pel·lícula</label>
+                <div>
+                    <input type="search" id="cercador" name="query" placeholder="Cerca una pel·lícula, per exemple «Dune»..." required>
+                    <button type="submit">Cercar</button>
+                </div>
+            </form>
+        </section>
 
-    <section>
+        <section>
             <h2>Resultats</h2>
 
             <article>
@@ -38,13 +41,13 @@
             </article>
 
             <article>
-               <img src="img/lotr.jpg" alt="Cartell de The Lord of the Rings: The Two Towers" height="200">
+                <img src="img/lotr.jpg" alt="Cartell de The Lord of the Rings: The Two Towers" height="200">
                 <h3>The Lord of the Rings: The Two Towers</h3>
                 <p>2002</p>
             </article>
 
             <article>
-                 <img src="img/spiderman.jpg" alt="Cartell de Spider-Man: Brand New Day" height="200">
+                <img src="img/spiderman.jpg" alt="Cartell de Spider-Man: Brand New Day" height="200">
                 <h3>Spider-Man: Brand New Day</h3>
                 <p>2026</p>
             </article>

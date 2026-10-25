@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Contacta amb l'alumna Belén Quichica Morote, desenvolupament web.">
+    <title>Contactes</title>
+    <link rel="icon" href="img/img.png" type="image/png">
 </head>
 <body>
     <header>
@@ -22,18 +24,16 @@
         <section>
             <h1>CONTACTA AMB NOSALTRES</h1>
             <p>Tens algun dubte o suggeriment? Escriu-nos.</p>
-        </section>
-
-        <section>
             <article>
-                <p>BQ</p>
+                <img src="img/belen.jpg" alt="Belén Quichica Morote" height="200">
                 <h2>Belén Quichica Morote</h2>
-                <p>Alumne/a · Desenvolupament web</p>
+                <p>Alumna · Desenvolupament web</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </article>
 
-            <form>
+            <div>
                 <h2>Envia'ns un missatge</h2>
+                <form action="/enviar" method="post">
 
                 <label for="nom">Nom i cognoms</label>
                 <input type="text" id="nom" name="nom" placeholder="El teu nom complet">
@@ -49,6 +49,7 @@
 
                 <button type="submit">Enviar</button>
             </form>
+        </div>
         </section>
     </main>
 

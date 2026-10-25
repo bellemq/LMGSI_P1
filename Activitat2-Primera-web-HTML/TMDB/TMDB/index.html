@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Cerca de pel·lícules i informació sobre elles.">
+    <title>Index</title>
+    <link rel="icon" href="img/img.png" type="image/png">
+
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -22,35 +26,37 @@
         <section>
             <h1>BUSCAR una pel·lícula</h1>
             <p>Milions de títols, un sol cercador.</p>
-            <form method="get" action="https://www.themoviedb.org/search">
-                <label for="cercador">Cerca una pel·lícula</label>
-                <div>
-                    <input type="search" id="cercador" name="query" placeholder="Cerca una pel·lícula, per exemple «Dune»..." required>
-                    <button type="submit">Cercar</button>
-                </div>
-            </form>
+             <div>
+                <form method="get" action="https://www.themoviedb.org/search"></form>
+                   <input type="search" id="cercador" name="query" placeholder="Cerca una pel·lícula, per exemple «Dune»..." required>
+                   <label for="cercador">Cerca una pel·lícula</label>
+                   <button type="submit">Cercar</button>
+                
+                </form>
+        </div>
         </section>
 
         <section>
             <h2>Resultats</h2>
+            <div>
+                <article>
+                     <img src="img/dune.jpg" alt="Cartell de Dune: Part Two" height="200">
+                     <h3>Dune: Part Two</h3>
+                    <p>2024</p>
+                </article>
 
-            <article>
-                <img src="img/dune.jpg" alt="Cartell de Dune: Part Two" height="200">
-                <h3>Dune: Part Two</h3>
-                <p>2024</p>
-            </article>
+                <article>
+                    <img src="img/lotr.jpg" alt="Cartell de The Lord of the Rings: The Two Towers" height="200">
+                    <h3>The Lord of the Rings: The Two Towers</h3>
+                    <p>2002</p>
+                </article>
 
-            <article>
-                <img src="img/lotr.jpg" alt="Cartell de The Lord of the Rings: The Two Towers" height="200">
-                <h3>The Lord of the Rings: The Two Towers</h3>
-                <p>2002</p>
-            </article>
-
-            <article>
-                <img src="img/spiderman.jpg" alt="Cartell de Spider-Man: Brand New Day" height="200">
-                <h3>Spider-Man: Brand New Day</h3>
-                <p>2026</p>
-            </article>
+                <article>
+                    <img src="img/spiderman.jpg" alt="Cartell de Spider-Man: Brand New Day" height="200">
+                    <h3>Spider-Man: Brand New Day</h3>
+                    <p>2026</p>
+                </article>
+            </div>
         </section>
     </main>
 

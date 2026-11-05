@@ -1,0 +1,135 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f7f5ef;
+  color: #333;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* 2. menú*/
+header {
+  background-color: #14213d;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+}
+
+header h2 {
+  .logo {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #fca311;
+  text-decoration: underline;
+}
+
+/* 3. Banner inicial */
+.banner {
+  background: #14213d url('../imagen/cafe.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  text-align: center;
+  color: #fff;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+.banner h1 {
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.boto {
+  display: inline-block;   /* el inline block permet que el botó respecti el padding i el margin verticals; l'<a> és en línia per defecte.*/
+  background-color: rgb(252, 163, 17);
+  color: #14213d;
+  padding: 10px 24px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.boto:hover {
+  background-color: #fff;
+}
+/* 4. Tarjetas de la carta */
+main {
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.targeta {
+  background-color: #fff;
+  border: 2px solid #14213d;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  margin: 20px auto;
+  width: 75%;
+}
+
+.targeta h2 {
+  color: #14213d;
+  font-style: italic;
+  font-size: 18px;
+  margin: 0 0 8px;
+}
+
+.preu {
+  color: rgb(218, 132, 11);
+  font-weight: bold;
+}
+
+/* 5. Horario y precio de página */
+.horari {
+  width: 600px;
+  max-width: 100%;
+  margin: 30px auto;
+  background-color: rgba(252, 163, 17, 0.15);
+  border: 2px dashed #fca311;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #14213d;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+
+

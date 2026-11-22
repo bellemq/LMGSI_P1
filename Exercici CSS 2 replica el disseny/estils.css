@@ -1,0 +1,156 @@
+/* Estilos generales */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Cabecera y menú */
+.capcalera {
+    background-color: #222831;
+    color: #eee;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.capcalera h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0 0 5px 0;
+}
+
+.capcalera p {
+    margin: 0 0 20px 0;
+    color: #00adb5;
+}
+
+nav a {
+    color: #eee;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #00adb5;
+    color: #222831;
+}
+
+/* Contenido y perfil */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 30px 20px;
+}
+
+main h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: #222831;
+}
+
+.avatar {
+    content: url("img/avatar.jpg");
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin: 30px auto 20px auto;
+}
+
+
+.bio {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/* Cita */
+.cita {
+    background-color: rgba(0, 173, 181, 0.1);
+    border-left: 6px solid hsl(183, 100%, 35%);
+    border-radius: 0 12px 12px 0;
+    padding: 20px 30px;
+    margin: 30px 0;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+/* Galería */
+#galeria {
+    text-align: center;
+}
+
+.foto {
+    display: inline-block;
+    vertical-align: top;
+    width: 29%;
+    height: 180px;
+    margin: 0 1.5%;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#foto1 {
+    background: url("img/foto1.jpg") center / cover no-repeat;
+}
+
+#foto2 {
+    background: url("img/foto2.jpg") center / cover no-repeat;
+}
+
+#foto3 {
+    background: url("img/foto3.jpg") center / cover no-repeat;
+}
+
+/* Contacto */
+#contacte {
+    background-color: #222831;
+    color: #eee;
+    text-align: center;
+    padding: 30px;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+}
+
+#contacte h2 {
+    color: white;
+}
+
+.boto {
+    display: inline-block;
+    background-color: rgb(0, 173, 181);
+    color: #222831; 
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.8em 1.6em;
+    border-radius: 50px;
+}
+
+.boto:hover {
+    background-color: white;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+}

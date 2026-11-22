@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cerca de pel·lícules i informació sobre elles.">
+    <title>Index</title>
+    <link rel="icon" href="img/img.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/estils.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="img/img.svg" alt="Logo de TMDB" height="25">
+            </a>
+            <ul>
+                <li><a href="index.html">Buscador</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="buscador">
+            <h1>Busca una pel·lícula</h1>
+            <p>Milions de títols, un sol cercador.</p>
+            <form method="get" action="https://www.themoviedb.org/search">
+                <input type="search" id="cercador" name="query" placeholder="Cerca una pel·lícula, per exemple «Dune»..." required>
+                <button type="submit">Cercar</button>
+            </form>
+        </section>
+
+        <section class="pelicules">
+            <h2>Resultats</h2>
+            <div class="resultats">
+                <article class="targeta">
+                    <img src="img/dune.jpg" alt="Cartell de Dune: Part Two" height="200">
+                    <h3>Dune: Part Two</h3>
+                    <p>2024</p>
+                </article>
+
+                <article class="targeta">
+                    <img src="img/lotr.jpg" alt="Cartell de The Lord of the Rings: The Two Towers" height="200">
+                    <h3>The Lord of the Rings: The Two Towers</h3>
+                    <p>2002</p>
+                </article>
+
+                <article class="targeta">
+                    <img src="img/spiderman.jpg" alt="Cartell de Spider-Man: Brand New Day" height="200">
+                    <h3>Spider-Man: Brand New Day</h3>
+                    <p>2026</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 The Movie Database — Maqueta de disseny</p>
+    </footer>
+</body>
+</html>

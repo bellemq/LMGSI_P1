@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* ===== DISTRIBUCIÓ (codi donat, no el modifiqueu) ===== */
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav ul { display: flex; gap: 32px; }
+.resultats { display: flex; gap: 24px; }
+.targeta { flex: 1; }
+/* ===== ELS VOSTRES ESTILS ===== */
+
+body {
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Cabecera */
+header {
+    background-color: #0b3a5e;
+    padding: 20px 40px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    color: #01b4e4;
+}
+
+/* Buscador */
+.buscador {
+    background-color: #032541;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.buscador h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.buscador p {
+    display: block;
+    font-size: 0.9rem;
+    color: #c8d3dc;
+    margin-bottom: 30px;
+}
+
+.buscador form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.buscador input {
+    width: 70%;
+    border: none;
+    background-color: #0b3a5e;
+    color: white;
+    padding: 15px;
+    border-radius: 6px 0 0 6px;
+    font-family: inherit;
+}
+
+.buscador button {
+    background-color: #01b4e4;
+    border: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 0 6px 6px 0;
+    font-family: inherit;
+}
+
+/* Resultados */
+.pelicules {
+    padding: 40px;
+}
+
+.pelicules h2 {
+    margin-bottom: 30px;
+}
+
+.targeta {
+    background-color: #0b3a5e;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.targeta img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.targeta h3 {
+    color: white;
+    font-size: 1rem;
+    padding: 0 12px;
+    margin: 12px 0 4px;
+}
+
+.targeta p {
+    color: #90cea1;
+    padding: 0 12px;
+    margin: 0 0 12px;
+}
+
+/*el pie de página */
+footer {
+    background-color: #032541;
+    color: #e0e0e0;
+    font-size: 0.8rem;
+    padding: 20px 40px;
+}

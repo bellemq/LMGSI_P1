@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
-p{
+body {
+    font-family: "Playfair Display", serif;
+}
+
+header {
+    background-color: #032541;
+}
+
+header a {
+    color: white;
+}
+
+p {
     color: blue;
 }
-h2{
+
+h2 {
     color: purple;
     text-decoration: underline;
 }
 
-title-results{
-
+h3 {
+    color: darkorange;
 }
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-{
-    font-family: "Playfair Display", serif;
+footer {
+    font-family: "Roboto Mono", monospace;
 }
 
 
